@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuliTip</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <section id="Home"">
+        <div>
+            <img src="" alt="">
+            <h3>vs.</h3>
+            <img src="" alt="">
+        </div>
+        <label for="spieltag">Wähle Spieltag</label>
+        <select name="spieltag" id="select_spieltag">
+            {% for game in games %}
+                <option value="">{{ game }}</option>
+            {% endfor %}
+        </select>
+        <div class="Results">
+        </div>
+    </section>
+</body>
+</html>

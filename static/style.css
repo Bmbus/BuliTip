@@ -1,0 +1,22 @@
+html, body, .App, #root {
+    text-align: center;
+    height: 100%;
+}
+
+section {
+    min-height: 100%;
+}
+
+#Home {
+    text-align: center;
+}
+
+#Home img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    padding: 5px;
+}
+
